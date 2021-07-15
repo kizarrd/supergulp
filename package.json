@@ -4,7 +4,8 @@
   "description": "gulp practice",
   "scripts": {
     "dev": "gulp dev",
-    "buld": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -22,17 +23,26 @@
     "@babel/register": "^7.14.5",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-browserify": "^0.5.1",
     "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-image": "^6.2.1",
     "gulp-sass": "^5.0.0",
     "gulp-webserver": "^0.9.1",
     "sass": "^1.35.2"
   },
   "dependencies": {
+    "babelify": "^10.0.0",
     "del": "^6.0.0",
-    "gulp-pug": "^5.0.0"
+    "gift": "^0.6.1",
+    "gulp-pug": "^5.0.0",
+    "uglifyify": "^5.0.2"
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "resolutions": {
+    "gift": "^0.6.1"
+  }
 }
